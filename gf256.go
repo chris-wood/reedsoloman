@@ -1,6 +1,6 @@
 type Field struct {
-    log [256] byte
-    exp [512] byte
+    log [256] byte // slice
+    exp [512] byte // slice
 }
 
 func (f *Field) Add(x byte, y byte) byte {
