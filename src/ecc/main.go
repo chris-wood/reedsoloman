@@ -1,6 +1,6 @@
 package main
 
-import "ecc/field"
+import "./field"
 
 func main() {
     // TODO: parser
