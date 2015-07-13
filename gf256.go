@@ -1,3 +1,5 @@
+package field
+
 type Field struct {
     log [256] byte // slice
     exp [512] byte // slice
