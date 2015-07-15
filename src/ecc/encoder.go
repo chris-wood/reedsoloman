@@ -1,9 +1,8 @@
-package encoder
+package main
 
 import "./field"
 import "os"
 import "fmt"
-import "io"
 import "io/ioutil"
 import "log"
 
